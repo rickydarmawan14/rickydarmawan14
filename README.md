@@ -39,17 +39,25 @@
 <td width="50%" valign="top">
 
 ```javascript
-const ricky = {
-  role: "Full Stack Developer",
-  code: ["JavaScript", "TypeScript", "Python"],
-  stack: {
-    frontend: ["React", "Next.js", "Vue", "Tailwind"],
-    backend: ["Node.js", "Express", "Python"],
-    database: ["PostgreSQL", "MongoDB"],
-    tools: ["Docker", "Git", "VS Code"]
-  },
-  learning: "System Design & Cloud",
-  funFact: "Coffee → Code → Deploy ☕"
+const profile = {
+  name: "Ricky Darmawan",
+  title: "Full Stack Developer",
+  location: "Indonesia (GMT+7)",
+  summary:
+    "I build modern, reliable web apps with clean UI, solid APIs, and pragmatic engineering.",
+  focus: [
+    "Frontend: React / Next.js (performance, accessibility, UX)",
+    "Backend: Node.js (REST APIs, auth, integrations)",
+    "Data: PostgreSQL / MongoDB (schema design, query optimization)",
+    "DevOps: Docker, CI/CD (repeatable builds & deployments)"
+  ],
+  highlights: [
+    "Shipping production features end-to-end",
+    "Maintaining clean, scalable codebases",
+    "Collaborating with teams and stakeholders"
+  ],
+  currentlyLearning: ["System Design", "Cloud Fundamentals"],
+  openTo: ["Freelance", "Remote", "Full-time"]
 };
 ```
 
